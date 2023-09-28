@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pytorch-playground"
+version = "0.1.0"
+description = ""
+authors = ["Stephen Carmody <stephen.carmody@glovoapp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+torch = ">=2.0.0"
+torchvision = ">=0.15.0"
+torchaudio = ">=2.0.0"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.25.2"
+matplotlib = "^3.8.0"
+
+[[tool.poetry.source]]
+name = "pytorch-playground"
+url = "https://pypi.python.org/simple/"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
