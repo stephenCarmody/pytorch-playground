@@ -4,6 +4,11 @@
 <a href='https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf'>ImageNet Classification with Deep Convolutional
 Neural Networks</a>
 
+# The Dataset
+For my purpose I am using the HugginFace Tiny Image Net dataset instead of the full dataset for space reasons
+
+https://huggingface.co/datasets/zh-plus/tiny-imagenet
+
 # Architecture 
 ### Important Features of the Architecture: 
 1. ReLu Activation Functions
